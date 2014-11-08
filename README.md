@@ -10,6 +10,7 @@ restrictions.
 
 * Contains the psycopg2 package for talking to Postgres databases
 * Contains the [ggplot][2] package for plotting
+* Contains the [db.py][3] package for simplifying database interactions
 
 ## Extra restrictions
 
@@ -32,3 +33,4 @@ docker run -d -p 8888:8888 -v `pwd`:/notebooks sendgridlabs/ipython
 
 [1]: https://github.com/ipython/docker-notebook/
 [2]: http://ggplot.yhathq.com/
+[3]: http://blog.yhathq.com/posts/introducing-db-py.html

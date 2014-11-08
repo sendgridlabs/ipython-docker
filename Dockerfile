@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install -y \
     python2.7-dev
 
 RUN pip install ggplot
+RUN pip install db.py
 
 VOLUME /notebooks
 WORKDIR /notebooks
